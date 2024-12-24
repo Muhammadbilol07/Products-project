@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahsulotlar 2</title>
+    <!-- link boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- link css -->
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+</head>
+<body>
+    <div class="header__menu2">
+        <i class='bx bx-x header__MenuX'></i>
+        <div>
+            <ul>
+                <li class="header__item2">Home</li>
+                <li class="header__item2">About</li>
+                <li class="header__item2">Contact</li>
+                <li class="header__item2">Map</li>
+            </ul>
+        </div>
+    </div>
+
+    <header class="header">
+        <nav class="header__nav">
+            <img src="./img/Logo.png" class="header__logo">
+            <div class="header__menu" id="header__menu">
+                <button>
+                    <i class='bx bx-menu'></i>
+                    <p>Каталог</p>
+                </button>
+            </div>
+            <label for="#" class="header__LabelSearch">
+                <input type="search" class="header__search" placeholder="Найти товар"><i class='bx bx-search header__SearchIcon'></i>
+            </label>
+            <ul class="header__list">
+                <li class="header__item">
+                    <i class='bx bx-heart'></i>
+                    <p>Избранное</p>
+                </li>
+                <li class="header__item">
+                    <i class='bx bx-cube header__cube'></i>
+                    <p class="header__cube">Заказы</p>
+                </li>
+                <li class="header__item">
+                    <i class='bx bx-cart'></i>
+                    <p>Корзина</p>
+                </li>
+                <li class="header__item header__item2">
+                    <div title="Profil rasm uchun Joy"></div>
+                    <p>Muhammadbilol</p>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <div class="container">
+
+            <h2 class="order__title">Избраное</h2>
+            <section class="order">
+                <button class="order__btn3">Фильтр</button>
+
+                <div class="order__general">
+
+                    <div class="order__box1">
+                        <button class="order__btn">Фильтр</button>
+                        <ul class="order__list1">
+                            <li>Цена</li>
+                            <button>Очистить</button>
+                        </ul>
+                        <ul class="order__list2">
+                            <button>1</button>
+                            <li>--</li>
+                            <button>100</button>
+                        </ul>
+                        <input type="range" class="order__range"> 
+                        <ul class="order__list3">
+                            <li>Молоко</li>
+                            <li>Сливки</li>
+                            <li>Яйцо</li>
+                        </ul>
+                        <div class="order__SwitchGnr">
+                            <div class="order__switch toggle-switch">
+                                <input type="checkbox" id="toggle"/>
+                                <label for="toggle"></label>
+                            </div>
+                            <p>В наличии</p>
+                        </div>  
+                        <button class="order__btn2">Применить</button>                        
+                    </div>
+
+                    <div class="order__box2 product">
+                        <ul class="product__list1">
+                            <button class="product__btn1">
+                                Цена от 99 до 2599
+                                <i class='bx bx-x'></i>
+                            </button>
+                            <button class="product__btn1 product__btn2">
+                                Очистить
+                                <i class='bx bx-x'></i>
+                            </button>
+                        </ul>
+                        <div class="product__box">
+                            <img src="./img/Products.png" class="product__pic">
+                            <img src="./img/Products.png" class="product__pic">
+                            <img src="./img/Products.png" class="product__pic">
+                            <img src="./img/Products.png" class="product__pic">
+                            <img src="./img/Products.png" class="product__pic">
+                            <img src="./img/Products.png" class="product__pic">
+                        </div>
+                        <button class="product__btn">Показать ещё</button>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__gnr">
+                <ul class="footer__list2">
+                    <img src="./img/Logo.png" class="footer__logo">
+                    <ul class="footer__ul">
+                        <li class="footer__item"><a href="#" class="footer__link">О компании</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Контакты</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Вакансии</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Статьи</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Политика обработки персональных данных</a></li>
+                    </ul>
+                </ul>
+                <div class="footer__list3">
+                    <img src="./img/Social.png" class="footer__social">
+                    <img src="./img/Frame 156.png" class="footer__number">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

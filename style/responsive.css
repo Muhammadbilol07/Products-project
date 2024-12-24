@@ -1,0 +1,120 @@
+@media screen and (max-width: 1024px) {
+    .header {
+        padding: 1rem 5%;
+    }
+    .header__list {
+        gap: 20px;
+    }
+    .header__search {
+        width: 250px;
+    }
+    .product__pic {
+        width: 220px;
+    }
+    .footer__ul {
+        gap: 15px;
+    }
+}
+
+/* Kichik ekranlar (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 1rem 6%;
+    }
+    .header__menu i {
+        font-size: 25px;
+    }
+    .header__item2 p {
+        display: none;
+    }
+    .header__menu p {
+        display: none;
+    }
+    .order__box1 {
+        display: none;
+    }
+    .product__list1 {
+        display: none;
+    }
+    .order__btn3 {
+        display: block;
+    }
+    .order__general {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .product__pic {
+        width: 180px;
+    }
+    .footer__gnr {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer__ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Juda kichik ekranlar (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 1rem 4%;
+    }
+    .header__menu {
+        display: none;
+    }
+    .header__list {
+        display: none;
+    }
+    .header__search {
+        width: 200px;
+    }
+    .order__title {
+        font-size: 36px;
+    }
+    .order__general {
+        margin-top: -5px;
+    }
+    .order__btn3 {
+        width: 100px;
+        font-size: 10px;
+    }
+    .product__pic {
+        width: 140px;
+    }
+    .product__box {
+        grid-template-columns: repeat(2, auto);
+        gap: 15px;
+    }
+    .footer__link {
+        font-size: 14px;
+    }
+    .footer__ul {
+        gap: 8px;
+    }
+}
+
+/* Juda kichik ekranlar (max-width: 360px) */
+@media screen and (max-width: 360px) {
+    .header {
+        padding: 1rem 3%;
+    }
+    .order__title {
+        font-size: 28px;
+    }
+    .product__pic {
+        width: 120px;
+    }
+    .product__box {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .footer__link {
+        font-size: 12px;
+    }
+    .footer__ul {
+        gap: 5px;
+        text-align: center;
+    }
+}
